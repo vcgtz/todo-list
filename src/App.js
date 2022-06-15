@@ -4,7 +4,7 @@ import NotesList from './NotesList.jsx';
 import Header from './Header.jsx';
 
 const App = () => (
-  <div>
+  <div className="p-4">
     <Header />
 
     <div className="flex">
