@@ -1,6 +1,6 @@
 const ProjectItem = (params) => {
   return (
-    <div>
+    <div className="pl-3">
       <p>{ params.name }</p>
     </div>
   );
