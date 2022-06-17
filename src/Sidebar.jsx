@@ -1,7 +1,9 @@
+import WorkplacesList from "./WorkplacesList.jsx";
+
 const SideBar = () => {
   return (
     <div id="sidebar">
-      <h2>SideBar</h2>
+      <WorkplacesList />
     </div>
   );
 }
