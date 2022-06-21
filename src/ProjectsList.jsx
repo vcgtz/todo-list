@@ -2,10 +2,19 @@ import ProjectItem from "./ProjectItem.jsx";
 
 const ProjectsList = () => {
   return (
-    <div>
-      <ProjectItem name="Project 1" />
-      <ProjectItem name="Project 2" />
-      <ProjectItem name="Project 3" />
+    <div className="pl-3">
+      <ProjectItem
+        name="Project 1"
+        icon="📚"
+      />
+      <ProjectItem
+        name="Project 2"
+        icon="📓"
+      />
+      <ProjectItem
+        name="Project 3"
+        icon=""
+      />
     </div>
   );
 }

@@ -15,7 +15,7 @@ const NoteItem = props => {
         name="note1"
         onChange={handleChange} />
       <label
-        className={"inline-block text-base " + (completed ? 'line-through text-gray-300' : '')}
+        className={"cursor-pointer inline-block text-base " + (completed ? 'line-through text-gray-300' : '')}
         htmlFor="note1">
         { props.title }
       </label>
